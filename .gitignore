@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# TensorFlow / Training
+logs/
+checkpoints/
+*.h5
+*.keras
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
